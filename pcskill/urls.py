@@ -1,0 +1,30 @@
+from django.urls import path,include
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='home'),
+    path('1/1/', views.one_1, name='1_1'),
+    path('1/2/', views.one_2, name='1_2'),
+    path('1/3/', views.one_3, name='1_3'),
+    path('1/4/', views.one_4, name='1_4'),
+    path('1/5/', views.one_5, name='1_5'),
+    path('2/1/', views.two_1, name='2_1'),
+    path('2/2/', views.two_2, name='2_2'),
+    path('2/3/', views.two_3, name='2_3'),
+    path('2/4/', views.two_4, name='2_4'),
+    path('3/1/', views.three_1, name='3_1'),
+    path('3/2/', views.three_2, name='3_2'),
+    path('4/1/', views.four_1, name='4_1'),
+    path('4/2/', views.four_2, name='4_2'),
+    path('4/3/', views.four_3, name='4_3'),
+    path('4/4/', views.four_4, name='4_4'),
+    path('4/5/', views.four_5, name='4_5'),
+    path('4/6/', views.four_6, name='4_6'),
+    path('4ex/1/', views.exfour_1, name='4ex_1'),
+    path('4ex/2/', views.exfour_2, name='4ex_2'),
+    path('4ex/3/', views.exfour_3, name='4ex_3'),
+    path('4ex/4/', views.exfour_4, name='4ex_4'),
+    path('4ex/5/', views.exfour_5, name='4ex_5'),
+    path('4ex/6/', views.exfour_6, name='4ex_6'),
+    path('4ex/7/', views.exfour_7, name='4ex_7'),
+]
